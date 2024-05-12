@@ -1,5 +1,5 @@
 build:
   docker:
-    Roy: Dockerfile
+    Ravan: Dockerfile
 run:
-  Roy: python3 -m main.py
+  Ravan: python3 -m main.py
