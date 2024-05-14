@@ -27,7 +27,7 @@ async def raid(e):
 
         try:
             if uid in MAHAK:
-                await e.reply("✦ ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ xsᴘᴀᴍ'ꜱ ᴏᴡɴᴇʀ.")
+                await e.reply("✦ ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ sᴘᴀᴍ'ꜱ ᴏᴡɴᴇʀ.")
             elif uid == OWNER_ID:
                 await e.reply("✦ ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
             elif uid in SUDO_USERS:
