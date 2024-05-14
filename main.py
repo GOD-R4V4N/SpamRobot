@@ -18,7 +18,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["Asuraa.modules." + plugin_name] = load
-    print("♥︎ Xspam has Imported " + plugin_name)
+    print("♥︎ spam has Imported " + plugin_name)
 
 
 files = glob.glob("Asuraa/modules/*.py")
