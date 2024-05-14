@@ -74,7 +74,7 @@ async def rraid(e):
         try:
             user_id = entity.id
             if user_id in MAHAK:
-                await e.reply("✦ ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ xsᴘᴀᴍ'ꜱ ᴏᴡɴᴇʀ.")
+                await e.reply("✦ ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ sᴘᴀᴍ'ꜱ ᴏᴡɴᴇʀ.")
             elif user_id == OWNER_ID:
                 await e.reply("✦ ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
             elif user_id in SUDO_USERS:
