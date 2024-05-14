@@ -1,7 +1,7 @@
 from telethon import events, Button
 from config import X1, SUDO_USERS, CMD_HNDLR as hl
 
-HELP_STRING = f"**✦ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ xsᴘᴀᴍ ʜᴇʟᴘ ⏤͟͟͞͞★**"
+HELP_STRING = f"**✦ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ sᴘᴀᴍ ʜᴇʟᴘ ⏤͟͟͞͞★**"
 
 HELP_BUTTON = [
     [
