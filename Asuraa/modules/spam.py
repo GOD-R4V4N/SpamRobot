@@ -61,7 +61,7 @@ async def spam(event: events):
 async def pspam(event):
     if event.sender_id == enums.ChatMemberStatus.ADMINISTRATOR or enums.ChatMemberStatus.OWNER:
         if event.chat_id in GROUP:
-            await event.reply("✦ ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ xsᴘᴀᴍ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
+            await event.reply("✦ ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ sᴘᴀᴍ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
         else:
             try:
                 counter = int(event.text.split(" ", 2)[1])
